@@ -1,0 +1,12 @@
+<div class="jumbotron">
+    <form (ngSubmit)="searchImages()">
+        <div class="row">
+            <div class="col-lg-8">
+                <input type="text" name="img" [(ngModel)]="imageName" class="form-control form-control-lg" placeholder="Search image">
+            </div>
+            <div class="col-lg-4">
+                <button type="submit" class="btn btn-primary btn-block">Search</button>
+            </div>
+        </div>
+    </form>
+</div>
